@@ -1,0 +1,35 @@
+9511  14:14:48.121319 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:14:48.141713 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:14:48.148586 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:14:48.166179 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:14:48.179152 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:14:48.189734 write(2</dev/pts/2<char 136:2>>, "14:14:48.187008 lab server lis"..., 55) = 55
+9511  14:15:41.198473 write(2</dev/pts/2<char 136:2>>, "14:15:41.198453 SOCKET   conne"..., 45) = 45
+9511  14:15:41.201782 write(2</dev/pts/2<char 136:2>>, "14:15:41.201764 HANDLER  ---- "..., 49) = 49
+9515  14:15:41.202999 write(2</dev/pts/2<char 136:2>>, "14:15:41.202988 HANDLER  first"..., 97) = 97
+9515  14:15:41.203202 write(2</dev/pts/2<char 136:2>>, "14:15:41.203134 HANDLER  w.Wri"..., 46) = 46
+9515  14:15:41.203327 write(2</dev/pts/2<char 136:2>>, "14:15:41.203285 HANDLER  ---- "..., 82) = 82
+9515  14:15:41.203605 write(5<TCP:[127.0.0.1:8080->127.0.0.1:46038]>, "HTTP/1.1 200 OK\r\nDate: Mon, 19"..., 143) = 143
+9515  14:15:41.274162 write(2</dev/pts/2<char 136:2>>, "14:15:41.274127 SOCKET   conn."..., 96) = 96
+9515  14:15:41.276539 write(2</dev/pts/2<char 136:2>>, "14:15:41.276528 SOCKET   conne"..., 43) = 43
+9515  14:15:41.302516 write(2</dev/pts/2<char 136:2>>, "14:15:41.302501 SOCKET   conne"..., 45) = 45
+9515  14:15:41.304400 write(2</dev/pts/2<char 136:2>>, "14:15:41.304389 HANDLER  ---- "..., 56) = 56
+9515  14:15:41.304579 write(2</dev/pts/2<char 136:2>>, "14:15:41.304570 HANDLER  first"..., 97) = 97
+9515  14:15:41.304659 write(2</dev/pts/2<char 136:2>>, "14:15:41.304650 HANDLER  w.Wri"..., 48) = 48
+9515  14:15:41.605272 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9515  14:15:41.606321 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9515  14:15:41.606700 write(2</dev/pts/2<char 136:2>>, "14:15:41.606570 HANDLER  w.Wri"..., 48) = 48
+9515  14:15:41.908091 write(2</dev/pts/2<char 136:2>>, "14:15:41.908042 HANDLER  w.Wri"..., 48) = 48
+9515  14:15:42.214375 write(2</dev/pts/2<char 136:2>>, "14:15:42.213592 HANDLER  w.Wri"..., 48) = 48
+9515  14:15:42.516516 write(2</dev/pts/2<char 136:2>>, "14:15:42.516471 HANDLER  (more"..., 74) = 74
+9515  14:15:42.518293 write(5<TCP:[127.0.0.1:8080->127.0.0.1:46040]>, "HTTP/1.1 200 OK\r\nDate: Mon, 19"..., 4096) = 4096
+9666  14:15:42.523797 write(2</dev/pts/2<char 136:2>>, "14:15:42.523775 SOCKET   conn."..., 96) = 96
+9666  14:15:42.525323 write(7<{eventfd-count=0, eventfd-id=198, eventfd-semaphore=0}>, "\1\0\0\0\0\0\0\0", 8) = 8
+9511  14:15:42.921164 --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+9511  14:15:42.921984 --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9511  14:15:42.925417 --- SIGINT {si_signo=SIGINT, si_code=SI_TKILL, si_pid=9511, si_uid=1000} ---
+9516  14:15:42.925623 +++ killed by SIGINT +++
+9515  14:15:42.925820 +++ killed by SIGINT +++
+9666  14:15:42.925870 +++ killed by SIGINT +++
+9514  14:15:42.930850 +++ killed by SIGINT +++
+9511  14:15:42.930914 +++ killed by SIGINT +++
